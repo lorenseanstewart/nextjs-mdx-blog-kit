@@ -21,8 +21,8 @@ config:
         - { text: About, link: /about }
 
     css:
-        primaryColor: "#C70039"
-        accentColor: "#FF5733"
+        primaryColor: "#536DFE"
+        accentColor: "#455A64"
         lightGray: "#eeeeee"
         backgroundColor: "#ffffff"
         black: "#333"
