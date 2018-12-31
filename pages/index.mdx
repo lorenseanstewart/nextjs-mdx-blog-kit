@@ -1,0 +1,32 @@
+import BlogMeta from "../components/BlogMeta";
+
+export const meta = {
+    title: "Loren Stewart",
+    tags: ["Loren Stewart"],
+    layout: "post",
+    publishDate: "2011-01-01",
+    modifiedDate: false,
+    seoDescription: "This is the home page."
+};
+
+# Next.js MDX Blog Kit
+
+**Feature List:**
+
+-   Static website deployment
+-   Write your posts in markdown, and use React components in your markdown thanks to [MDX](https://github.com/mdx-js/mdx). Or use plain React, if you prefer.
+-   A CLI for creating new pages or posts. It processes all the necessary meta data for creating the blog list and adding SEO data to all pages.
+-   Close to perfect Lighthouse scores. The lowest score is 99% for Performance, a 1% drop due to loading and displaying a custom font (Abril Fatface).
+-   Excellent SEO
+-   Service Worker that caches all pages and posts for offline reading
+-   Tag search
+-   A [reading progress indicator](https://github.com/jeremenichelli/scrollProgress) on posts (optional/configurable)
+-   [Code syntax highlighting](https://github.com/conorhastings/react-syntax-highlighter)
+-   [Smooth scroll links](https://github.com/mauricevancooten/react-anchor-link-smooth-scroll)
+-   [Optimized images](https://github.com/cyrilwanner/next-optimized-images)
+-   Tests are set up using [Jest](https://github.com/facebook/jest)
+-   Easy deploys with Zeit's [Now](https://zeit.co/now)
+
+**View Source:** If you view the source of this webpage, you will see that pages are rendered and minified on a server and served as static files.
+
+**Lighthouse:** If you want first-hand evidence of the audit scores shown in the project README.md, feel free to run a Lighthouse audit of this site.

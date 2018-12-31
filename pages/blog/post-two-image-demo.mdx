@@ -1,0 +1,16 @@
+import imageUrl from "../../static/images/mountains.jpg";
+import BlogMeta from "../../components/BlogMeta";
+export const meta = {
+    title: "Second Post With Image",
+    tags: ["mdx", "javascript"],
+    layout: "post",
+    publishDate: "2017-12-10",
+    hideProgressBar: true,
+    seoDescription: "This post demonstrates how to use images in blog posts."
+};
+
+<BlogMeta data={props} />
+
+Here is an image 🤓
+
+<img src={imageUrl} className="img-centered" alt="Image alt" />

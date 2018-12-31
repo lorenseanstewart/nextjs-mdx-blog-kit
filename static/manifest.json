@@ -1,0 +1,43 @@
+{
+    "name": "Next.js MDX Static Blog Kit",
+    "short_name": "Blog Kit",
+    "description": "A starter kit for creating a static blog using Next.js and MDX.",
+    "display": "standalone",
+    "orientation": "portrait",
+    "start_url": "/",
+    "theme_color": "#333",
+    "background_color": "#FFF",
+    "lang": "en-US",
+    "scope": "/",
+    "icons": [{
+            "src": "/static/icons/icon_120.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/icon_152.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/icon_144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/icon_192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/icon_384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/icon_512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
