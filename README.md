@@ -13,7 +13,7 @@ The idea is to provide a complete blogging system that requires only two things 
 
 And, of course, this repo could merely be a starting point for your hacking. Hack away and have fun.
 
-To clone this repo: `git clone --depth=1 https://github.com/XYZ.git <YOUR_PROJECT_NAME>`
+To clone this repo: `git clone --depth=1 https://github.com/lorenseanstewart/nextjs-mdx-blog-kit <YOUR_PROJECT_NAME>`
 
 #### Feature list:
 
