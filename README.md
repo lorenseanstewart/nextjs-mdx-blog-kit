@@ -2,9 +2,9 @@
 
 # Next.js MDX Blog Kit
 
-This kit is designed to give you a fully functional, easy to use (if you are a developer) blog with near-perfect Lighthouse scores.
+This kit is designed to give you a fully functional, easy to use (if you are a developer) blog with perfect Lighthouse scores.
 
-![Lighthouse audit with 100% scores, except for Performance which is 99%.](./static/images/blog-kit-lighthouse.png "Lighthouse Scores")
+![Lighthouse audit with 100% scores.](./static/images/lighthouse-scores.png "Lighthouse Scores")
 
 The idea is to provide a complete blogging system that requires only two things from the developer:
 
@@ -20,7 +20,7 @@ To clone this repo: `git clone --depth=1 https://github.com/lorenseanstewart/nex
 -   Static website deployment
 -   Write your posts in markdown, and use React components in your markdown thanks to [MDX](https://github.com/mdx-js/mdx). Or use plain React, if you prefer.
 -   A CLI for creating new pages or posts. It processes all the necessary meta data for creating the blog list and adding SEO data to all pages.
--   Close to perfect Lighthouse scores. The lowest score is 99% for Performance, a 1% drop due to loading and displaying a custom font (Abril Fatface).
+-   Perfect Lighthouse scores.
 -   Excellent SEO
 -   Service Worker that caches all pages and posts for offline reading
 -   Tag search
