@@ -4,6 +4,8 @@
 
 This kit is designed to give you a fully functional, easy to use (if you are a developer) blog with perfect Lighthouse scores.
 
+![Lighthouse audit with 100% scores.](./static/images/lighthouse.png "Lighthouse Scores")
+
 The idea is to provide a complete blogging system that requires only two things from the developer:
 
 1. **write** some posts; share you knowledge!
