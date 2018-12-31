@@ -3,7 +3,7 @@ import { centeredPageStyles } from "../styles";
 
 export const meta = {
     title: "About",
-    tags: ["Loren Stewart"],
+    tags: ["Next.js", "MDX"],
     layout: "page",
     publishDate: "2011-01-01",
     modifiedDate: false,
