@@ -256,7 +256,7 @@ To load custom fonts, follow these two steps:
 -   Add the font files to `/static/fonts`
 -   Add font face CSS rules to `/styles/index.js`
 
-Keep in mind custom fonts affect your site's performance, so use be careful with your CSS `font-dispaly` property. This project uses `font-display: auto;` to help make font loading more performant.
+Keep in mind custom fonts affect your site's performance, so use be careful with your CSS `font-display` property. This project uses `font-display: auto;` to help make font loading more performant.
 
 If you do not want to use custom fonts, delete the files from `/static/fonts`, and remove both (1) the `@font-face` rules and (2) the `font-family: "Abril Fatface"` reference from `/styles/index.js`.
 
