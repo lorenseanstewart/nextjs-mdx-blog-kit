@@ -84,8 +84,10 @@ strong {
     display: flex;
     flex-direction: column;
 }
-img.img-centered {
+img {
     max-width: 100%;
+}
+img.img-centered {
     align-self: center;
     margin: 10px 0px;
 }
