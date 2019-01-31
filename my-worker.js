@@ -13,7 +13,21 @@ something like `/blog/animation/using-react-sprint` for each page in
 the directory. 
 */
 
-const precacheFiles = ["/", "/blog/", "/static/"];
+const precacheFiles = [
+    "/",
+    "/about",
+    "/search",
+    "/blog",
+    "/blog/post-one-code-block-demo.mdx",
+    "/blog/post-two-image-demo.mdx",
+    "/blog/post-three-smooth-scroll-and-reading-progress-bar.mdx",
+    "/blog/post-four-link-on-twitter.mdx",
+    "/static/fonts/Abril-Fatface.woff2",
+    "/static/images/lighthouse.png",
+    "/static/images/mountains.jpg",
+    "/static/images/next-logo.jpg",
+    "/static/images/twitter-card-demo.png"
+];
 
 self.addEventListener("install", e => {
     console.log("[ServiceWorker] Installed");
