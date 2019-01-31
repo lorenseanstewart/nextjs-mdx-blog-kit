@@ -1,6 +1,6 @@
 // change precacheVersion whenever you update this file
 // (e.g. if you add a new url to the precacheFiles array.)
-const precacheVersion = 3;
+const precacheVersion = 8;
 const precacheName = "precache-v" + precacheVersion;
 
 /*
@@ -18,15 +18,10 @@ const precacheFiles = [
     "/about/",
     "/search/",
     "/blog/",
-    "/blog/post-one-code-block-demo.mdx/",
-    "/blog/post-two-image-demo.mdx/",
-    "/blog/post-three-smooth-scroll-and-reading-progress-bar.mdx/",
-    "/blog/post-four-link-on-twitter.mdx/",
-    "/static/fonts/Abril-Fatface.woff2/",
-    "/static/images/lighthouse.png/",
-    "/static/images/mountains.jpg/",
-    "/static/images/next-logo.jpg/",
-    "/static/images/twitter-card-demo.png/"
+    "/blog/post-one-code-block-demo/",
+    "/blog/post-two-image-demo/",
+    "/blog/post-three-smooth-scroll-and-reading-progress-bar/",
+    "/blog/post-four-link-on-twitter/"
 ];
 
 self.addEventListener("install", e => {
@@ -36,7 +31,7 @@ self.addEventListener("install", e => {
 
     e.waitUntil(
         caches.open(precacheName).then(cache => {
-            console.log("[ServiceWorker] Precaching files");
+            console.log("[ServiceWorker] Precaching files", cache);
             return cache.addAll(precacheFiles);
         })
     );
