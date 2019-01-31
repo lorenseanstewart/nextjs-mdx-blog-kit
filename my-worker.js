@@ -1,6 +1,6 @@
 // change precacheVersion whenever you update this file
 // (e.g. if you add a new url to the precacheFiles array.)
-const precacheVersion = 2;
+const precacheVersion = 3;
 const precacheName = "precache-v" + precacheVersion;
 
 /*
@@ -15,18 +15,18 @@ the directory.
 
 const precacheFiles = [
     "/",
-    "/about",
-    "/search",
-    "/blog",
-    "/blog/post-one-code-block-demo.mdx",
-    "/blog/post-two-image-demo.mdx",
-    "/blog/post-three-smooth-scroll-and-reading-progress-bar.mdx",
-    "/blog/post-four-link-on-twitter.mdx",
-    "/static/fonts/Abril-Fatface.woff2",
-    "/static/images/lighthouse.png",
-    "/static/images/mountains.jpg",
-    "/static/images/next-logo.jpg",
-    "/static/images/twitter-card-demo.png"
+    "/about/",
+    "/search/",
+    "/blog/",
+    "/blog/post-one-code-block-demo.mdx/",
+    "/blog/post-two-image-demo.mdx/",
+    "/blog/post-three-smooth-scroll-and-reading-progress-bar.mdx/",
+    "/blog/post-four-link-on-twitter.mdx/",
+    "/static/fonts/Abril-Fatface.woff2/",
+    "/static/images/lighthouse.png/",
+    "/static/images/mountains.jpg/",
+    "/static/images/next-logo.jpg/",
+    "/static/images/twitter-card-demo.png/"
 ];
 
 self.addEventListener("install", e => {
