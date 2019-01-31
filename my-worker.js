@@ -6,10 +6,10 @@ const precacheName = "precache-v" + precacheVersion;
 /*
 In the array below, include the urls to all the posts/pages 
 that you want cached for offline access. For files that are nested
-more than two directories deep, you may need the full url.
+more than two directories deep, you will need the full url.
 
-E.g. Pages within `/blog/animation/`, may not get cached. You may need 
-something like `/blog/animation/using-react-sprint` for each page in 
+E.g. Pages within `/blog/animation/`, will not get cached. You will 
+to enter the full url, e.g., `/blog/animation/using-react-sprint` for each page in 
 the directory. 
 */
 
