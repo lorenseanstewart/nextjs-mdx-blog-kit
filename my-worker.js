@@ -1,6 +1,6 @@
 // change precacheVersion whenever you update this file
 // (e.g. if you add a new url to the precacheFiles array.)
-const precacheVersion = 8;
+const precacheVersion = 9;
 const precacheName = "precache-v" + precacheVersion;
 
 /*
