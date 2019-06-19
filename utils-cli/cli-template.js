@@ -4,7 +4,7 @@ const reactImport = `import { Component } from "react";`;
 const markdownImport = (type = "post") =>
     `import BlogMeta from "${
         type === "post" ? "../../" : "../"
-    } components/BlogMeta";`;
+    }components/BlogMeta";`;
 /* prettier-ignore */
 const mardownContent = () => 
 `export const meta = {
