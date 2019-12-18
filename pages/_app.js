@@ -33,7 +33,7 @@ export default class MyApp extends App {
 
         const propsObj = Object.assign(
             {},
-            { router, postData, allData, ...pageProps }
+            { postData, allData, ...pageProps }
         );
 
         return { ...propsObj };
