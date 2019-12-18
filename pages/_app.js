@@ -63,7 +63,7 @@ export default class MyApp extends App {
         if (postData) {
             const tagsString = postData.tags.join(", ");
             return (
-                <Container>
+                <React.Fragment>
                     {/* (1) SEO  */}
                     <Head>
                         <meta name="keywords" content={tagsString} />
@@ -101,7 +101,7 @@ export default class MyApp extends App {
                             margin: 15px;
                         }
                     `}</style>
-                </Container>
+                </React.Fragment>
             );
         } else {
             return null;
