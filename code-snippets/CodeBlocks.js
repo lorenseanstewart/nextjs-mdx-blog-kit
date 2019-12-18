@@ -1,11 +1,11 @@
-import SyntaxHighlighter from "react-syntax-highlighter";
-import { duotoneLight } from 'react-syntax-highlighter/dist/cjs/styles/prism';
+import SyntaxHighlighter from "react-syntax-highlighter/prism";
+import { duotonelight } from "react-syntax-highlighter/styles/prism";
 
 export const CodeBlockJS = props => {
     return (
         <SyntaxHighlighter
             language="javascript"
-            style={duotoneLight}
+            style={duotonelight}
             showLineNumbers={true}
             customStyle={{
                 fontSize: 14

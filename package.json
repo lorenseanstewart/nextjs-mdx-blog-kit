@@ -39,7 +39,7 @@
         "react-anchor-link-smooth-scroll": "^1.0.12",
         "react-dom": "^16.12.0",
         "react-icons": "^3.8.0",
-        "react-syntax-highlighter": "^12.2.1",
+        "react-syntax-highlighter": "^9.0.1",
         "remark-emoji": "^2.0.2",
         "remark-images": "^1.0.0",
         "scrollprogress": "^3.0.2",
