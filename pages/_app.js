@@ -1,6 +1,6 @@
 import App, { Container } from "next/app";
 import Head from "next/head";
-import NextSeo from "next-seo";
+import { NextSeo } from "next-seo";
 import Navigation from "../components/Navigation";
 import { createSEOConfig } from "../utils/seo";
 import getPostData from "../utils/get-post-data";
