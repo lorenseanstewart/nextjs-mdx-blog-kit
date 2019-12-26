@@ -220,7 +220,7 @@ For more information, refer to the `react-anchor-link-smooth-scroll` [docs](http
 To use an image in an MDX file, import the image like this:
 
 ```
-import imageUrl from "../../static/images/mountains.jpg";
+import imageUrl from "../../public/static/images/mountains.jpg";
 ```
 
 Then use the image like this:

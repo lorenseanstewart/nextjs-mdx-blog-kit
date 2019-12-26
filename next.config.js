@@ -11,7 +11,7 @@ module.exports = (phase, { defaultConfig }) => {
         // parse mdx files
         extension: /\.mdx?$/,
         options: {
-            mdPlugins: [images, emoji]
+            remarkPlugins: [images, emoji]
         }
     });
 

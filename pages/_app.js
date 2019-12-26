@@ -1,6 +1,6 @@
 import App, { Container } from "next/app";
 import Head from "next/head";
-import NextSeo from "next-seo";
+import { NextSeo } from "next-seo";
 import Navigation from "../components/Navigation";
 import { createSEOConfig } from "../utils/seo";
 import getPostData from "../utils/get-post-data";
@@ -33,7 +33,7 @@ export default class MyApp extends App {
 
         const propsObj = Object.assign(
             {},
-            { router, postData, allData, ...pageProps }
+            { postData, allData, ...pageProps }
         );
 
         return { ...propsObj };
@@ -63,7 +63,7 @@ export default class MyApp extends App {
         if (postData) {
             const tagsString = postData.tags.join(", ");
             return (
-                <Container>
+                <React.Fragment>
                     {/* (1) SEO  */}
                     <Head>
                         <meta name="keywords" content={tagsString} />
@@ -101,7 +101,7 @@ export default class MyApp extends App {
                             margin: 15px;
                         }
                     `}</style>
-                </Container>
+                </React.Fragment>
             );
         } else {
             return null;

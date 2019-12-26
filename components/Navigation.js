@@ -5,7 +5,7 @@ import { config } from "../config/config.yml";
 
 export const NavigationItem = props => (
     <li>
-        <Link prefetch href={props.data.link}>
+        <Link href={props.data.link}>
             <a onClick={props.handleToggleNav}>{props.data.text}</a>
         </Link>
         <style jsx>{`
