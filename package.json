@@ -52,7 +52,7 @@
         "imagemin-svgo": "^7.0.0",
         "jest": "^24.9.0",
         "next-optimized-images": "^2.5.4",
-        "svg-sprite-loader": "^4.1.6",
+        "svg-sprite-loader": "^6.0.11",
         "webp-loader": "^0.6.0"
     }
 }
